@@ -16,7 +16,7 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 
 //cors
-// app.use(cors())
+app.use(cors())
 
 //body parsing
 app.use(express.urlencoded({ extended: true }));
